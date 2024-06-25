@@ -1,0 +1,60 @@
+.box{
+    height: 525px;
+    width:350px;
+    border: 2px solid rgb(229, 220, 220);
+    box-shadow: 2px 3px 5px 2px rgba(161, 154, 154, 0.659);
+    border-radius: 13px;
+}
+
+.bot {
+    padding-left: 8px;
+    margin-left: 8px;
+}
+
+.top{
+    padding: 5px;
+    margin: 5px;
+}
+
+.middle button{
+    padding: 1%;
+    margin: 2px;
+    width: 30%;
+    color: rgb(169, 168, 168);
+    background-color: rgb(255, 253, 253);
+    border: 1px solid rgb(220, 214, 214);
+    border-radius: 20px;
+
+}
+
+.middle{
+    display:flex;
+    position: relative;
+    left: 10px;
+}
+
+img{
+    height: 200px;
+    border-radius: 13px;
+}
+
+.submit{
+    border-radius: 10px;
+    width: 100px;
+    height:25px;
+    color: blue;
+    background-color: aqua;
+}
+
+.bot_button{
+    display: flex;
+    justify-content: center;
+}
+
+.submit:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.submit:active{
+    background-color: red;
+}
