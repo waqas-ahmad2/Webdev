@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --prim_color:rgb(196, 214, 114);
+    --nav_color:blueviolet;
+}
+
+body{
+    background-color: rgb(212, 156, 248);
+}
+
+nav{
+    background-color: var(--nav_color);
+    padding: 12px 0;
+    text-align: end;
+}
+
+
+nav li{
+    list-style: none;
+    display: inline;
+    padding: 23px;
+}
+
+
+a {
+    text-decoration: none;
+    color:rgba(252, 250, 251, 0.896)
+}
+
+a:hover{
+    color:var(--prim_color)
+}
