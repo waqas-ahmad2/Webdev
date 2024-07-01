@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: darkslategrey;
+    height: 90vh;
+    position: relative;
+}
+
+.ball{
+    background-color: rgb(203, 180, 86);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    border: none;
+    bottom: 0;
+    left: 0;
+    animation: animeX 6s linear infinite , animeY 1s ease-out alternate-reverse infinite;
+}
+ 
+@keyframes animeX{
+    from{
+        left: 0;
+    }
+    to{
+        left:100%
+    }
+}
+
+@keyframes animeY{
+    from{
+        bottom:0;
+        
+    }
+    to{
+      bottom: 100%;  
+    }
+}
