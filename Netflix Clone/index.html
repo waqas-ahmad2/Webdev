@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Netflix</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="main">
+      <nav>
+        <div class="logo">
+          <img src="assets/svg/logo.svg" />
+        </div>
+        <div>
+          <select class="btn_other">
+            <option>English</option>
+            <option>Francais</option>
+          </select>
+          <!-- class="btn_other">English</button> -->
+          <button class="btn_sm">Sign In</button>
+        </div>
+      </nav>
+
+      <div class="box">
+        <!-- for opacity control-->
+      </div>
+
+      <div class="hero">
+        <div>Unlimited movies, TV shows, and more</div>
+        <div>Watch anywhere. Cancel anytime.</div>
+        <div>
+          Ready to watch? Enter your email to create or restart your membership.
+        </div>
+        <div class="hero_get">
+          <form>
+            <input
+              class="hero_input"
+              type="email"
+              id="email"
+              name="email"
+              minlength="5"
+              maxlength="50"
+              placeholder="Email address"
+              required
+            />
+            <button for="email" class="btn_lg" type="submit">
+              Get Started &gt
+            </button>
+          </form>
+        </div>
+        <div class="ad_box">
+          <div>
+            <img src="assets/images/popcorn.png" />
+          </div>
+          <div style="line-height: 3cap">
+            <p style="font-size: 20px">The Netflix you love for just $5.99.</p>
+            <p>Get the Standard with ads plan.</p>
+            <a style="color: #448ef4; cursor: pointer" href="#"
+              >Learn More &nbsp &gt</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- <div class="seperation"></div> -->
+      <section class="first">
+        <div>
+          <p>Enjoy on your TV</p>
+          <br />
+          <p>
+            Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+            players, and more.
+          </p>
+        </div>
+        <div class="sec_img">
+          <img src="assets/images/tv.png" />
+          <video src="assets/videos/tv-0819.mp4" autoplay loop></video>
+        </div>
+      </section>
+
+      <div class="seperation"></div>
+
+      <section class="first second">
+        <div class="sec_img sec_video">
+          <img src="assets/images/device-pile.png" />
+          <video src="assets/videos/video-devices.mp4" autoplay loop></video>
+        </div>
+        <div>
+          <p>Watch everywhere</p>
+          <br />
+          <p>
+            Stream unlimited movies and TV shows on your phone, tablet, laptop,
+            and TV.
+          </p>
+        </div>
+      </section>
+
+      <div class="seperation"></div>
+
+      <section class="first third">
+        <div>
+          <p style="font-size: 46px">Create profiles for kids</p>
+          <br />
+          <p>
+            Send kids on adventures with their favorite characters in a space
+            made just for them—free with your membership.
+          </p>
+        </div>
+        <div class="sec_img">
+          <img src="assets/images/kids.png" />
+        </div>
+      </section>
+
+      <div class="seperation"></div>
+
+      <section class="first forth">
+        <div class="sec_img">
+          <img src="assets/images/mobile-0819.jpg" />
+          <div class="box_sm">
+            <div class="box_sm_1">
+              <img src="assets/images/boxshot.png" />
+            </div>
+            <div>
+              <p>Stranger Things</p>
+              <p>Downloading....</p>
+            </div>
+            <div class="box_sm_2">
+              <img src="assets/images/download-icon.gif" />
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p>Download your shows to watch offline</p>
+          <br />
+          <p>Watch on a plane, train, or submarine...</p>
+        </div>
+      </section>
+
+      <div class="seperation"></div>
+
+      <section class="fourth">
+        <div class="faq">
+          <h1>Frequently Asked Questions</h1>
+          <br />
+          <div class="faq_flex">
+            <div class="flex_2">
+              <p>What is Netflix?</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="32"
+                height="32"
+                color="#white"
+                fill="none"
+              >
+                <path
+                  d="M12 4V20M20 12H4"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="flex_2">
+              <p>How much does Netflix cost?</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="32"
+                height="32"
+                color="#white"
+                fill="none"
+              >
+                <path
+                  d="M12 4V20M20 12H4"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="flex_2">
+              <p>Where can I watch?</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="32"
+                height="32"
+                color="#white"
+                fill="none"
+              >
+                <path
+                  d="M12 4V20M20 12H4"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="flex_2">
+              <p>How do I cancel?</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="32"
+                height="32"
+                color="#white"
+                fill="none"
+              >
+                <path
+                  d="M12 4V20M20 12H4"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="flex_2">
+              <p>What can I watch on Netflix?</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="32"
+                height="32"
+                color="#white"
+                fill="none"
+              >
+                <path
+                  d="M12 4V20M20 12H4"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+
+            <div class="flex_2">
+              <p>Is Netflix good for kids?</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="32"
+                height="32"
+                color="#white"
+                fill="none"
+              >
+                <path
+                  d="M12 4V20M20 12H4"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="hero_get">
+          <form>
+            <p style="color: white; padding: 40px 0px 20px 0px">
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </p>
+            <input
+              class="hero_input"
+              type="email"
+              id="email"
+              name="email"
+              minlength="5"
+              maxlength="50"
+              placeholder="Email address"
+              required
+            />
+            <button for="email" class="btn_lg" type="submit">
+              Get Started &gt
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <div class="seperation"></div>
+
+      <section class="footer">
+        <div>
+          Questions? Call &nbsp <a href="#" type="phone"> 1-844-542-4813 </a>
+        </div>
+
+        <div class="footer_grid">
+          <div><a href="#">FAQ</a></div>
+          <div><a href="#">Help Center</a></div>
+          <div><a href="#">Account</a></div>
+          <div><a href="#">Media Center</a></div>
+          <div><a href="#">Investor Relations</a></div>
+          <div><a href="#">Jobs</a></div>
+          <div><a href="#">Netflix Shop</a></div>
+          <div><a href="#">Redeem Gift Cards</a></div>
+          <div><a href="#">Buy Gift Cards</a></div>
+          <div><a href="#">Ways to Watch</a></div>
+          <div><a href="#">Terms of Use</a></div>
+          <div><a href="#">Privacy</a></div>
+          <div><a href="#">Cookie Preferences</a></div>
+          <div><a href="#">Corporate Information</a></div>
+          <div><a href="#">Speed Test</a></div>
+          <div><a href="#">Legal Notices</a></div>
+          <div><a href="#">Only on Netflix</a></div>
+          <div><a href="#">Ad Choices</a></div>
+        </div>
+
+        <div style="position: relative; right: 20px; ">
+            <select class="btn_other">
+              <option value="en"> English</option>
+              <option value="fr">Francais</option>
+            </select>
+          
+        </div>
+        Netflix Canada
+      </section>
+    </div>
+  </body>
+</html>
