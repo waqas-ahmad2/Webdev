@@ -1,0 +1,10 @@
+<svg width="300px" height="100px" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Circle for logo background -->
+  <circle cx="50" cy="50" r="45" fill="white" stroke="green" stroke-width="5" />
+  
+  <!-- Music wave inside the circle -->
+  <path d="M30 50 Q39 30, 40 50 T50 50 T60 50 T70 50 T80 50" stroke="green" stroke-width="6" fill="none" />
+  
+  <!-- Text next to the logo -->
+  <text x="120" y="65" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="green">Musify</text>
+</svg>

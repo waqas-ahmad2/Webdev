@@ -1,0 +1,7 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circle border -->
+  <circle cx="25" cy="25" r="23" stroke="#141B34" stroke-width="3" fill="none" />
+  
+  <!-- Play icon -->
+  <path d="M20 33V17L33 25L20 33Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+</svg>
