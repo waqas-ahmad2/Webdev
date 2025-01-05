@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/utility.css">
+    <title> Musify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img width="30" class="invert" src="img/close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img width="110" class="invert" src="img/logo.svg" alt=""></div>
+                <ul class="homeicons">
+                    <a href=""><li><img class="invert" src="img/home.svg" alt="home">Home</li></a>
+                    
+                    <div class="personal_info">
+                        <div> Developer: Waqas Ahmad</div>
+                        <div><a href='https://github.com/waqas-ahmad2'>Github</a></div>
+                        <div><a href="https://www.linkedin.com/in/waqas-ahmad-8048a37b/">LinkedIn</a></div>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="img/playlist.svg" alt="">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+
+                <div class="songList">
+                    <ul id="songs">
+                        <!-- code in js -->
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div><a href="https://www.musify.com/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.musify.com/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.musify.com//privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.musify.com/cookies/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.musify.com/about-ads"><span>About Ads</span></a></div>
+                    <div><a href="https://www.musify.com/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgerContainer">
+
+                        <img width="40" class="invert hamburger" src="img/hamburger.svg" alt="">
+                        <div class="hamburgerContainer">
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="musifyPlaylists">
+                <h1>Musify Playlists</h1>
+                
+                <!-- Album Cards Container -->
+                <div class="cardContainer">
+                
+                    <!-- Album Cards code in js -->
+   
+                </div>
+
+                <!-- codes in js -->
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+
+
+                        <div class="songinfo">
+                            
+                        </div>
+                        <div class="songbuttons">
+                            <img width="35" id="previous" src="img/prevsong.svg" alt="">
+                            <img width="35" id="play" src="img/play.svg" alt="">
+                            <img width="35" id="next" src="img/nextsong.svg" al0t="">
+                        </div>
+                        <div class="timevol">
+
+                       
+                            <div class="songtime">
+
+                            </div>
+                            <div class="volume">
+                                <img width="25" src="img/volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" value="40" name="volume" id="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
